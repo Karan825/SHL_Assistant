@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+pydantic
+python-dotenv
+sentence-transformers
+faiss-cpu
+rank-bm25
+google-generativeai
+groq
+numpy
