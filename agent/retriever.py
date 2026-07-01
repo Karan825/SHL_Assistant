@@ -33,7 +33,7 @@ class Retriever:
         with open(self.data_dir / "model_name.pkl", "rb") as f:
             model_name = pickle.load(f)
 
-        self.embed_model = SentenceTransformer(model_name, local_files_only=True)
+        self.embed_model = SentenceTransformer(model_name, local_files_only=False)
 
         # -----------------------------
         # Load FAISS
